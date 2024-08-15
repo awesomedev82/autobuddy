@@ -1,0 +1,50 @@
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+	.se3-box {
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.hero-section {
+		padding: 47px 0px;
+	}
+
+	h1.header-title {
+		font-size: 31px;
+	}
+
+	.testimonial.mt-4 {
+		padding-left: 7px;
+	}
+
+	p.header-test-text {
+		padding-right: 7px;
+	}
+
+	h5.span-feature {
+		padding-top: 20px;
+	}
+
+	h2.section2-title {
+		font-size: 26px;
+	}
+
+	.section2 .col-6 {
+		margin-bottom: 27px;
+	}
+
+	.section2 {
+		padding: 28px 0px;
+	}
+
+	.se3-box {
+		padding: 10px;
+		margin-bottom: 14px;
+	}
+
+	h5.sec3-title {
+		margin-bottom: 7px;
+	}
+
+
+}
