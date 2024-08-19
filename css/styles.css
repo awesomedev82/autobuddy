@@ -40,7 +40,13 @@ img {
 .top-section {
 	padding: 15px 0px 30px 0px;
 }
-
+img.logo2 {
+    width: 52px;
+}
+img.logo1 {
+    width: 113px;
+    height: 51px;
+}
 .top-section .row {
 	align-items: center;
 }
@@ -125,7 +131,10 @@ h5.span-feature {
 	font-weight: 700;
 	margin-bottom: 15px;
 }
-
+.fame-quiz {
+    padding-left: 15px;
+    padding-top: 12px;
+}
 /*==================== SECTION2 ========================*/
 .section2 {
 	background: #ECF4FE;
