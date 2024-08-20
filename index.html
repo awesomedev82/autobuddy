@@ -35,16 +35,16 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                      <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                           <a class="nav-link" href="#">About Us</a>
+                           <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="#">How It Works</a>
+                           <a class="nav-link" href="#works">How It Works</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="#">Why Choose AutoBuddy?</a>
+                           <a class="nav-link" href="#why">Why Choose AutoBuddy?</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="#">Testimonials</a>
+                           <a class="nav-link" href="#testi">Testimonials</a>
                         </li>
                      </ul>
                   </div>
@@ -54,7 +54,7 @@
       </div>
       <!--=========HEADER SECTION END=============-->
       <!--=========HERO SECTION START=============-->
-      <div class="hero-section">
+      <div class="hero-section" id="about">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
@@ -159,7 +159,7 @@
       </div>
       <!--=========SECTION 2 SECTION END=============-->
       <!--========= SECTION3 START=============-->
-      <div class="section3">
+      <div class="section3" id="works">
          <div class="container my-5">
             <div class="row text-center">
                <div class="col-md-4">
@@ -185,7 +185,7 @@
       </div>
       <!--========= SECTION3 END=============-->
       <!--=========Faq SECTION start=============-->
-      <div class="faq">
+      <div class="faq" id="why">
          <div class="container">
             <h2 class="faq-title">Frequently Asked Questions</h2>
             <div class="row">
@@ -255,7 +255,7 @@
          </div>
       </div>
         <!--=========Testimonials SECTION START=============-->
-      <div class="testi">
+      <div class="testi" id="testi">
         <div class="contianer">
             <div class="elfsight-app-afae4d7b-6f91-4c7f-9d06-7a37d83757b4" data-elfsight-app-lazy></div>
         </div>
@@ -290,5 +290,19 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       <script src="https://synq-digital.leadshook.io/s/js_embed" ></script>
       <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <script type="text/javascript">
+      // Select all links with hashes
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault(); // Prevent default anchor click behavior
+
+      // Using scrollIntoView to smoothly scroll to the section
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
+      </script>
    </body>
 </html>
